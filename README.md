@@ -20,7 +20,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [oop_school_library] <a name="about-project"></a>
-*OOP School Library* is a school library app. In this part of the project, we implement the classes to represent students and teachers.
+*OOP School Library* is a school library app. In this part of the project, we
+used the **Decorator Design Pattern** to correct names of people.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -37,11 +38,12 @@
 ### 🌸🌷 Key Features <a name="key-features"></a>
 
 - **[Classes]**
-- **[Rubocop install]**
-- **[Gems install]**
-- **[Constructor]**
-- **[Getters]**
-- **[Setters]**
+- **[Decorator Design Pattern]**
+- **[Composition Implementation]**
+- **[instance variable]**
+- **[method creation]**
+- **[Constructor: super]**
+- **[run the code using ruby keyword]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +75,7 @@ Clone this repository to your desired folder:
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Decorator Design Patterns]**
+
 - [ ] **[Set-Up Associations]**
 - [ ] **[Add Basic UI]**
 
