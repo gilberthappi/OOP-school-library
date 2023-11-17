@@ -1,6 +1,5 @@
-require_relative 'nameable'
+require './nameable'
 
-# this class inherits the nameable features
 class Decorator < Nameable
   attr_accessor :nameable
 
