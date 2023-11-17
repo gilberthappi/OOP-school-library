@@ -1,7 +1,5 @@
-require './person'
-
 class Student < Person
-  attr_reader :classroom
+  attr_accessor :classroom
 
   def initialize(name, age, parent_permission, classroom)
     super(name, age, parent_permission)
@@ -14,6 +12,6 @@ class Student < Person
 
   def classroom=(classroom)
     @classroom = classroom
-    classroom.student.push(self) unless classroom.student.includes?(self)
+    classroom.students << self unless classroom.students.include?(self)
   end
-end
+  
