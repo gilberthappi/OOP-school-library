@@ -1,5 +1,4 @@
 GEM
-  remote: https://rubygems.org/
   specs:
     ast (2.4.2)
     json (2.6.3)
@@ -29,10 +28,10 @@ GEM
     unicode-display_width (2.5.0)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x86_64-darwin-23
 
 DEPENDENCIES
   rubocop (>= 1.0, < 2.0)
 
 BUNDLED WITH
-   2.4.22
+   2.4.10
