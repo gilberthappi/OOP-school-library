@@ -1,10 +1,11 @@
-# class representing a person
 require_relative 'nameable'
 require_relative 'decorator'
 require_relative 'capitalize_decorator'
 require_relative 'trimmer_decorator'
 
 class Person
+  include Nameable
+
   attr_accessor :name, :age
   attr_reader :id
 
@@ -13,10 +14,6 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
-  end
-
-  def correct_name
-    @name
   end
 
   def can_use_services?
@@ -30,6 +27,7 @@ class Person
   end
 end
 
+# Rest of your code remains the same...
 person = Person.new('maximilianus', 22)
 puts person.correct_name
 capitalized_person = CapitalizeDecorator.new(person)
