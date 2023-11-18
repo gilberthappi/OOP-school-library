@@ -1,3 +1,4 @@
+
 class Classroom
   attr_accessor :label, :students
 
