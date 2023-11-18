@@ -9,6 +9,7 @@ require './decorator'
 require './capitalize_decorator'
 require './trimmer_decorator'
 
+
 class App
   attr_accessor :people, :book, :rental
 
